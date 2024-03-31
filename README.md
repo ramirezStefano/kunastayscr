@@ -1,0 +1,2 @@
+# kunastayscr
+Webapp for Kunastays
