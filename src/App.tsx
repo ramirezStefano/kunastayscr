@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <div>
+      <h1 style={{fontFamily:"Lobster"}}>Kuna Stays</h1>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -16,18 +17,44 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <h2>
+        Welcome to Kuna Stays
+        </h2>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+        Experience tranquility in our cozy containers by the beach in beautiful Costa Rica. Whether you seek relaxation or adventure, Kuna Stays offers the perfect getaway with modern comforts and stunning views.
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        <h2>
+        Your Perfect Beach Retreat
+        </h2>
+        <p>
+        Located on the pristine shores of Costa Rica, our container homes blend modern design with natural beauty. Enjoy the sound of the waves, breathtaking sunsets, and the warmth of Costa Rican hospitality.
+        </p>
+      <h3 className="read-the-docs">
+      Why Choose Kuna Stays?
+      </h3>
+      <p>
+      Modern and Cozy Accommodation
       </p>
+      <p>
+      Stunning Beachfront Views
+      </p>
+      <p>
+      Ideal for Relaxation and Adventure
+      </p>
+      <p>
+      Eco-Friendly and Sustainable
+      </p>
+      <h2>
+      Kuna Stays - Coming Soon
+      </h2>
+      <p>
+      We are excited to announce the upcoming launch of Kuna Stays, your ultimate beach retreat in Costa Rica. Stay tuned for more updates and be ready to book your perfect getaway soon!
+      </p>
+      </div>
     </>
   )
 }
